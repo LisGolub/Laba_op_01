@@ -1,0 +1,6 @@
+#ifndef BUSINESSLOGIC_H
+#define BUSINESSLOGIC_H
+
+
+
+#endif // BUSINESSLOGIC_H
