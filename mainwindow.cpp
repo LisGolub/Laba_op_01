@@ -38,7 +38,7 @@ void MainWindow::onConvertButtonClicked() {
     } else {
         int checkText = checkTextEdit(number, radioButtonIn);
         if (checkText == TRUE) {
-            //Здесь конвертор
+            converter(radioButtonIn, radioButtonOut, number);
         } else {
             QMessageBox::critical(this, "Error", "Validate error");
         }
@@ -111,9 +111,9 @@ std::string MainWindow::getSelectedRadioButtonText(QGroupBox *groupBox) {
 void MainWindow::on_textEdit_textChanged() {
     std::string number = getTextEdit();
     if (number.empty()){
-        setBtnEnabled(0, ui->convertButton);
+        setBtnEnabled(FALSE, ui->convertButton);
     } else {
-        setBtnEnabled(1, ui->convertButton);
+        setBtnEnabled(TRUE, ui->convertButton);
     }
 }
 

@@ -51,7 +51,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>60</y>
+      <y>90</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -65,7 +65,7 @@
     <property name="styleSheet">
      <string notr="true">QTextEdit{
 	padding-top:3px;
-	background-color:white;
+	background-color:pink;
 	border-radius: 5px;
 }
 QTextEdit:hover{
@@ -85,7 +85,7 @@ QTextEdit:hover{
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>110</y>
+      <y>140</y>
       <width>131</width>
       <height>141</height>
      </rect>
@@ -216,7 +216,7 @@ QRadioButton{
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>110</y>
+      <y>140</y>
       <width>111</width>
       <height>141</height>
      </rect>
@@ -344,7 +344,7 @@ QRadioButton{
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>320</y>
+      <y>340</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -358,7 +358,7 @@ QRadioButton{
     <property name="styleSheet">
      <string notr="true">QLabel {
 	border-radius: 5px;
-	background-color: white;
+	background-color: pink;
 	padding-left:10px;
 }</string>
     </property>
@@ -376,7 +376,7 @@ QRadioButton{
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>260</y>
+      <y>280</y>
       <width>161</width>
       <height>51</height>
      </rect>
@@ -391,7 +391,7 @@ QRadioButton{
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	border-radius: 5px;
-	background-color: white;
+	background-color: pink;
 	color: gray;
 }
 </string>
@@ -404,7 +404,7 @@ QRadioButton{
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>370</y>
+      <y>390</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -419,7 +419,7 @@ QRadioButton{
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	border-radius: 5px;
-	background-color: white;
+	background-color: pink;
 }
 
 QPushButton:hover{
@@ -435,7 +435,7 @@ QPushButton:hover{
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>370</y>
+      <y>390</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -450,7 +450,7 @@ QPushButton:hover{
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	border-radius: 5px;
-	background-color: white;
+	background-color: pink;
 }
 
 QPushButton:hover{
@@ -466,7 +466,7 @@ QPushButton:hover{
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>420</y>
+      <y>440</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -481,7 +481,7 @@ QPushButton:hover{
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	border-radius: 5px;
-	background-color: white;
+	background-color: pink;
 }
 
 QPushButton:hover{

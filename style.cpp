@@ -3,9 +3,9 @@
 void setBtnEnabled(int status, QPushButton *btn) {
     btn->setEnabled(status);
     if (status) {
-        btn->setStyleSheet("QPushButton{border-radius: 5px;background-color: white;color: black; border: 1px solid black}");
+        btn->setStyleSheet("QPushButton{border-radius: 5px;background-color: pink;color: black; border: 1px solid black}");
     } else {
-        btn->setStyleSheet("QPushButton{border-radius: 5px;background-color: white;color: gray;}");
+        btn->setStyleSheet("QPushButton{border-radius: 5px;background-color: pink;color: gray;}");
     }
 }
 
